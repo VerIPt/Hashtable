@@ -1,5 +1,3 @@
-package Algo;
-
 import java.util.LinkedList;
 
 // Inner class for Key-Value-Pairs with attributes key and String
@@ -105,21 +103,16 @@ public class HashTable {
                     System.out.println("Key: " + key + ", value : " + keyValuePair.getValue());
                     return keyValuePair.getValue();
                 }
-                else {
-                    setoutput(key);     // output with return null
-                }
             }
-        } else {
-            setoutput(key);     // output with return null
+        } else {        // output with return null
+            System.out.println("------------------------------------------------");
+            System.out.println("Error, Key: " + key + " not found");
+            return null;
         }
         return null;
     }
     // Output method if the key isn't found, in both cases -> index null and if not in linked-list at index
-    public String setoutput(int key){
-        System.out.println("------------------------------------------------");
-        System.out.println("Error, Key: " + key + " not found");
-        return null;
-    }
+
     /*
     Method to remove objects from the hashtable, with return as String from removed value
     or null if not found
