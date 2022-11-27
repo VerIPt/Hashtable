@@ -104,14 +104,16 @@ public class HashTable {
                     return keyValuePair.getValue();
                 }
             }
-        } else {        // output with return null
+
+        } else {
+            // Output if the key isn't found, in both cases -> index null and if not in linked-list at index
             System.out.println("------------------------------------------------");
             System.out.println("Error, Key: " + key + " not found");
             return null;
         }
         return null;
     }
-    // Output method if the key isn't found, in both cases -> index null and if not in linked-list at index
+
 
     /*
     Method to remove objects from the hashtable, with return as String from removed value
