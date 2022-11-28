@@ -1,5 +1,6 @@
 /**
- * @autor Gwarda(942437), Maushart(939781)
+ * @author Gwarda(942437),
+ * @author Maushart(939781)
  */
 
 import org.junit.jupiter.api.Assertions;
