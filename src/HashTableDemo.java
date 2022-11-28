@@ -13,7 +13,6 @@ public class HashTableDemo {
         System.out.println("key 5: " + ht.get(5));
         ht.get(98873);
         ht.put(98873, "Ingo Igel ");
-        ht.get(98873);
 
     }
 

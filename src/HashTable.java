@@ -32,6 +32,10 @@ public class HashTable implements IntStringMap {
     private final int size;
     private final LinkedList<KeyValuePair>[] hashtable;
 
+    // Getter
+    public int getSize() {
+        return size;
+    }
     // Constructor hashtable with size and array of linked-list with KeyValuePairs
     @SuppressWarnings("unchecked")
     public HashTable(int size) {
